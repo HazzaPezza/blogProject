@@ -1,26 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry's Blog</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="header-container">
-        <page-title class="top-title">
-            Harry's Blog
-        </page-title>
+<html>
+    <head>
+        <!-- Main page meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Harry Perriton</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <header-menu class="header-menu">
-            <a class="active" href="#index">Home</a>
-            <a href="#posts">Posts</a>
-            <a href="#admin">Admin</a>
-        </header-menu>
+        <!-- Stylesheet links -->
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-        <div class="page-content">
+    <!-- Main page content -->
+    <body>
+        <div class="site-content">
+
+            <!-- Card for main content - name and brief bio. -->
+            <div class="cover-card">
+                <div class="cover-card-content">
+                    <h1 id="title-heading">Harry Perriton</h1>
+                    <p class="card-paragraph">Software Developer and Recent Master's Graduate looking for work in London and across the U.K.</p>
+                    <p class="card-paragraph">Experienced in the following disciplines:</p>
+                    <ul class="card-list">
+                        <li>Full-Stack Web Development</li>
+                        <li>Python and Machine Learning</li>
+                        <li>Software QA Testing</li>
+                    </ul>
+                    <p class="card-paragraph">Available for contact here:</p>
+                </div>
+            </div>
             
+            <!-- Card for job experience, may need to be taller rather than wide -->
+            <div class="experience-card">
+                <div class="experience-card-content">
+
+                    <!-- Experience Role 1 -->
+                    <h1 id="card-heading">Experience</h1>
+                    <h2 class="job-title">Apple</h2>
+                    <p class="job-subheading-text italic">Specialist</p>
+                    <p class="job-subheading-text">August 2024 - Present, Sheffield</p>
+                    <p class="experience-card-paragraph">Roles:</p>
+
+                    <!-- List of job role items, similar to CV. -->
+                    <ul class="job-card-list">
+                        <li class="job-list-element">Created promoters of Apple products by delivering world class sales, services, and product demos of key hero products.</li>
+                        <li class="job-list-element">Assisted and found extra facilities for customers with technical issues or for customers with accessibility needs.</li>
+                        <li class="job-list-element">Took responsibility managing team on shop floor in 'On Point' role, setting appropriate expectations for customers and ensuring that team members are allocated to those waiting.</li>
+                        <li class="job-list-element">Discovered over 80 new opportunities for Apple Business teams in first 2 months to find clients and cater detailed reports for team records.</li>
+                        </ul>
+                    
+                    <!-- Experience Role 2 -->
+                    <h2 class="job-title">PlayStation</h2>
+                    <p class="job-subheading-text italic">Certifications and Operations Software QA Tester</p>
+                    <p class="job-subheading-text">June 2021 - April 2023, Liverpool</p>
+                    <p class="experience-card-paragraph">Roles:</p>
+
+                    <!-- List of job role items, similar to CV. -->
+                    <ul class="job-card-list">
+                        <li class="job-list-element">Responsible for testing Functional and Non-Functional requirements of internal and client projects bound for release on online retail environment - The PlayStation Store.</li>
+                        <li class="job-list-element">Tested hundreds of applications for legal trademarks in 26 languages, PlayStation APIs and network protocols, functionality, and integrity of software store fronts.</li>
+                        <li class="job-list-element">Read and responded to clien communications in French and English to better understand client needs and provide consultation on completing PlayStation projects.</li>
+                        <li class="job-list-element">Was part of testing team for PlayStation VR2 launch, ensuring all accompanying software products were ready for release upon launch.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>    
-</body>
+    </body>
 </html>
